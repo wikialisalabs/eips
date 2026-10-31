@@ -1,0 +1,18 @@
+[package]
+name = "alloy-eips"
+version = "0.1.0"
+edition = "2021"
+authors = ["Wikialisalabs Foundation <root@wikialisalabs.axvn.vn>"]
+description = "Ethereum Improvement Proposals (EIPs) — Prague-ready hardfork activation logic"
+license = "Apache-2.0"
+repository = "https://github.com/wikialisalabs/eips"
+keywords = ["ethereum", "eip", "hardfork", "prague", "cancun"]
+categories = ["cryptography::cryptocurrencies"]
+readme = "README.md"
+
+[features]
+default = ["std"]
+std = []
+
+[dependencies]
+alloy-core = { path = "../core" }
